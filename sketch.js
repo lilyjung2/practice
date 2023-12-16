@@ -1,11 +1,11 @@
 //let width=400, height=400;
-let width=windowwidth, height=windowheight;
+//let width=windowwidth, height=windowheight;
 let stars=[];
 let factor=100;
 let speedSlider;
 
 function setup() {
-  createCanvas(width, height);
+  createCanvas(windowWidth, windowHeight);
   speedSlider=createSlider(0, 20, 5, 0.1);
   for (let i=0; i<500; i++) {
     stars[i]=createVector(
